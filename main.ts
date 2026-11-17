@@ -1,14 +1,14 @@
-// A best-game-01 entry (Node 22, standard library only): the game is this directory's
-// game/ folder, plain static files a desktop browser loads offline (game/index.html and its ES
-// modules, three.js vendored under game/vendor/), and the program hands it in. It copies game/
-// and screenshots/ from beside this file to /output and writes /output/dossier.json, the summary
-// the judge reads, with the vendored make.fun library.
+// EMBERLINE for best-game-01 (Node 22, standard library only). The game itself is the static
+// files in game/: a desktop browser opens game/index.html with no network, loading ES modules
+// plus the three.js copy vendored under game/vendor/. This script hands the entry in, copying
+// game/ and screenshots/ from beside it into /output and writing /output/dossier.json, the
+// summary the judge reads, through the vendored make.fun library.
 //
-// The game is EMBERLINE: Saltworks Yard, a round-based tactical FPS. One player (Ember,
-// attackers) against four bots (Tide, defenders) on an original two-site map. First to 7 rounds
-// (max 13). A buy phase opens each round, the attackers plant a charge with E, the defenders
-// defuse it, and every round ends in a win, a loss, or a detonation. Put your 3 or 4 PNG or JPEG
-// screenshots in screenshots/ (the first by name is the cover) and run it.
+// EMBERLINE: Saltworks Yard — a round-based tactical FPS. Ember (one player, attackers) versus
+// Tide (four bots, defenders) on an original two-site map. First to 7 rounds (max 13). Every
+// round starts with a buy phase; attackers plant a charge with E, defenders defuse it, and a
+// round ends in a win, a loss, or a detonation. Add 3 or 4 PNG or JPEG screenshots under
+// screenshots/ (the first by name is the cover), then run this file.
 //
 // Serve it locally with `node serve.ts`, then open http://localhost:8080.
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
