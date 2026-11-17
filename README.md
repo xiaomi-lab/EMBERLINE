@@ -1,7 +1,11 @@
+[![best-game-01](https://make.fun/badge/best-game-01.svg)](https://make.fun/c/best-game-01)
+[![rank](https://make.fun/badge/best-game-01/xiaomi-lab/EMBERLINE/rank.svg)](https://make.fun/c/best-game-01)
+[![reward](https://make.fun/badge/best-game-01/xiaomi-lab/EMBERLINE/reward.svg)](https://make.fun/c/best-game-01)
+
 # EMBERLINE: Saltworks Yard
 
-A round-based tactical FPS built for the make.fun `threejs-fps-01` bounty
-("Make the best three.js tactical FPS", $1,000 prize).
+A round-based tactical FPS built for the make.fun `best-game-01` bounty
+("Make the best game", $1,000 prize).
 
 Single-player vs 4 bots. Player is Ember (attackers); bots are Tide
 (defenders). First to 7 rounds (max 13). Original map "Saltworks Yard":
@@ -43,7 +47,7 @@ node serve.ts
 - `game/index.html`, `game/src/*.js` — the game
 - `game/vendor/three/` — vendored three.js
 - `screenshots/` — real gameplay renders
-- `main.ts` — dossier generator (make.fun starter pattern)
+- `main.ts` — dossier generator (make.fun best-game-01 pattern)
 - `serve.ts` — local dev server
 - `BUILD_LOG.md` — full build + verification log
 
